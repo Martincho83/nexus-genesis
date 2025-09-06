@@ -47,3 +47,29 @@ body {
 .cta-button:hover {
     background-color: #CCCCCC;
 }
+
+.cta-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.email-input {
+    background-color: #2a2a2a;
+    border: 1px solid #444;
+    color: #EAEAEA;
+    padding: 1rem;
+    border-radius: 5px;
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    width: 300px;
+}
+
+.email-input::placeholder {
+    color: #888;
+}
+
+.cta-button {
+    border: none;
+    cursor: pointer;
+}
